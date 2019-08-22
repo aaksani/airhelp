@@ -28,12 +28,15 @@ By default it will simulate rampup of traffic from 1 to 200 users over 5 minutes
 This could be changed in TestOrderAccept.js file (you can find proper place via comments)
 
 ## Usage
-To generate reports you can use official K6 documentation https://docs.k6.io/docs/influxdb-grafana
+To generate reports you can use official K6 graphana documentation https://docs.k6.io/docs/influxdb-grafana
+Once you have Graphana up and running at  http://localhost:3000
+```docker run load-testing run --out influxdb=http://10.227.200.51:8086/myk6db TestOrderAccept.js```
 
+Note: change ip address to yours
 
+For best visualization use Graphana pre-configured Dashboard like:
 
-
-
+https://grafana.com/dashboards/2587
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
