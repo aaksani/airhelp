@@ -27,6 +27,8 @@ By default it will simulate rampup of traffic from 1 to 200 users over 5 minutes
 
 This could be changed in TestOrderAccept.js file (you can find proper place via comments)
 
+Optionaly parameters could be added from command line, see the reference here :https://docs.k6.io/docs/running-k6
+
 ## Usage
 To generate reports you can use official K6 graphana documentation https://docs.k6.io/docs/influxdb-grafana
 Once you have Graphana up and running at  http://localhost:3000
