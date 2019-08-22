@@ -1,0 +1,36 @@
+[{
+  "client": {
+    "city": "Krakow",
+    "firstName": "client",
+    "flatNo": 0,
+    "homeNo": 0,
+    "id": "1",
+    "lastName": "client",
+    "password": "test",
+    "role": "EMPLOYEE",
+    "street": "",
+    "username": "",
+    "zipCode": 31213
+  },
+  "completeDate": "",
+  "id": "1",
+  "items": [
+    {
+      "product": {
+        "category": {
+          "id": "1",
+          "name": ""
+        },
+        "company": "",
+        "description": "",
+        "expirationDate": "",
+        "id": "1",
+        "name": "1",
+        "price": 20
+      },
+      "quantity": 1
+    }
+  ],
+  "orderDate": "",
+  "status": "DRAFT"
+}]
